@@ -34,7 +34,9 @@ Path: `/signup`   Request: `POST`
 
 Method used to register user
 
+<br/>
 
+Body:
 ```Bash
 {   
     "name": "Name LastName",
