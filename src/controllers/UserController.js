@@ -2,6 +2,10 @@ const { request } = require("express");
 const connection = require("../database/connection");
 const moment = require("moment");
 
+const env = require('dotenv').config();
+
+console.log(env);
+
 module.exports = {
 
     async index (request, response) {
