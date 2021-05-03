@@ -2,7 +2,11 @@
 
 <hr/>
 
+Application used to be the Back-End of Invision Web: [https://cristianaragao.github.io/signin](https://cristianaragao.github.io/signin)
+
 Base URL of the Back-End for API Testing: `https://invision-backend.herokuapp.com`
+
+<hr/>
 
 **AVAILABLE METHODS**:
 
@@ -24,8 +28,6 @@ Body:
 `"password"` must be 6 or more characters
 
 `"account_google"` put `true` if you log in with Google
-
-<hr/>
 
 * Path: `/signup`
 
