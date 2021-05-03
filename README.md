@@ -2,14 +2,15 @@
 
 <hr/>
 
-URL Base do Back-End para Teste de API: `https://invision-backend.herokuapp.com`
+Base URL of the Back-End for API Testing: `https://invision-backend.herokuapp.com`
 
-**MÉTODOS DISPONÍVEIS**:
+**AVAILABLE METHODS**:
 
-* POST
+* Path: `/signin`
 
-Path: `/signin`
+Method: POST
 
+Body:
 ```Bash
 {
     "email": "user@email.com",
@@ -18,11 +19,17 @@ Path: `/signin`
 }
 ```
 
+`"email"` must have an Email structure
+
+`"password"` must be 6 or more characters
+
+`"account_google"` put `true` if you log in with Google
+
 <hr/>
 
-* POST
+* Path: `/signup`
 
-Path: `/signup`
+Method: POST
 
 ```Bash
 {   
@@ -31,6 +38,12 @@ Path: `/signup`
     "password": "123456",
 }
 ```
+
+`"name"` must be a string with at least one space between characters
+
+`"email"` must have an Email structure
+
+`"password"` must be 6 or more characters
 
 <hr/>
 
