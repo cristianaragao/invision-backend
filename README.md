@@ -4,8 +4,33 @@
 
 URL Base do Back-End para Teste de API: `https://invision-backend.herokuapp.com`
 
-** MÉTODOS DISPONÍVEIS **
+**MÉTODOS DISPONÍVEIS**:
 
+* POST
+
+Path: `/signin`
+
+```Bash
+{
+    "email": "user@email.com",
+    "password": "123456",
+    "account_google": false
+}
+```
+
+<hr/>
+
+* POST
+
+Path: `/signup`
+
+```Bash
+{   
+    "name": "Name LastName",
+    "email": "user@email.com",
+    "password": "123456",
+}
+```
 
 <hr/>
 
