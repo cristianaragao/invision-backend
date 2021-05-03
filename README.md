@@ -10,9 +10,9 @@ Base URL of the Back-End for API Testing: `https://invision-backend.herokuapp.co
 
 **AVAILABLE METHODS**:
 
-* Path: `/signin`
+Path: `/signin`   Request: `POST`
 
-Method: POST
+Method used to sign in
 
 Body:
 ```Bash
@@ -29,9 +29,11 @@ Body:
 
 `"account_google"` put `true` if you log in with Google
 
-* Path: `/signup`
 
-Method: POST
+Path: `/signup`   Request: `POST`
+
+Method used to register user
+
 
 ```Bash
 {   
