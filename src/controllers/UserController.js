@@ -26,10 +26,18 @@ module.exports = {
         }
         else{
             
-            const emailValidate = email.split('@');
-
             if(email === ''){
                 return response.status(400).json({ error: 'Email cannot be empty.' });
+            }
+
+            if(email.length - 1 === '@'){
+                return response.status(400).json({ error: 'Email cannot be empty.' });
+            }
+
+            const emailValidate = email.split('@');
+
+            if(emailValidate.length <= 1){
+                return response.status(400).json({ error: 'Invalid Email.' });
             }
             
             const partFinalEmailValidate = emailValidate[1].split('.');
