@@ -27,14 +27,13 @@ Body:
 
 `"password"` must be 6 or more characters
 
-`"account_google"` put `true` if you log in with Google
+`"account_google"` put `true` if you sign in with Google
 
+<br/>
 
 Path: `/signup`   Request: `POST`
 
 Method used to register user
-
-<br/>
 
 Body:
 ```Bash
@@ -42,6 +41,7 @@ Body:
     "name": "Name LastName",
     "email": "user@email.com",
     "password": "123456",
+    "account_google": false
 }
 ```
 
@@ -50,6 +50,8 @@ Body:
 `"email"` must have an Email structure
 
 `"password"` must be 6 or more characters
+
+`"account_google"` put `true` if you sign up with Google and let field password as default: `"password": ""`
 
 <hr/>
 
