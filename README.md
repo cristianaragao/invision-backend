@@ -2,7 +2,7 @@
 
 <hr/>
 
-Application used to be the Back-End of Invision Web: [https://cristianaragao.github.io/signin](https://cristianaragao.github.io/signin)
+Application used to be the Back-End of Invision Web: [https://github.com/cristianaragao/invision-frontend](https://github.com/cristianaragao/invision-frontend)
 
 Base URL of the Back-End for API Testing: `https://invision-backend.herokuapp.com`
 
@@ -53,6 +53,3 @@ Body:
 
 `"account_google"` put `true` if you sign up with Google and let field password as default: `"password": ""`
 
-<hr/>
-
-Visit the Invision Front-End Application page at: [https://cristianaragao.github.io/signin](https://cristianaragao.github.io/signin)
